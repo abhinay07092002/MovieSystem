@@ -1,0 +1,115 @@
+.darkBG {
+  background-color: rgba(0, 0, 0, 0.7);
+  width: 100vw;
+  height: 580vh;
+  z-index: 0;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+}
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: white;
+  padding: 1%;
+}
+.modalHeader {
+  height: 50px;
+  background: white;
+  overflow: hidden;
+  border-top-left-radius: 16px;
+  border-top-right-radius: 16px;
+}
+
+.heading {
+  float: left;
+  margin-right: 70%;
+}
+.modalContent {
+  padding: 10px;
+  font-size: 14px;
+  color: #2c3e50;
+  text-align: center;
+}
+.modalActions {
+  position: absolute;
+  bottom: 2px;
+  margin-bottom: 10px;
+  width: 100%;
+}
+
+.actionsContainer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.deleteBtn {
+  margin-top: 10px;
+  cursor: pointer;
+  font-weight: 500;
+  padding: 11px 28px;
+  border-radius: 12px;
+  font-size: 0.8rem;
+  border: none;
+  color: #fff;
+  background: #ff3e4e;
+  transition: all 0.25s ease;
+}
+.cancelBtn {
+  margin-top: 10px;
+  cursor: pointer;
+  font-weight: 500;
+  padding: 11px 28px;
+  border-radius: 12px;
+  font-size: 0.8rem;
+  border: none;
+  color: #2c3e50;
+  background: #fcfcfc;
+  transition: all 0.25s ease;
+}
+.shifting {
+  text-align: left;
+  margin-left: 1%;
+}
+.sdj{
+  float: right;
+  margin-left: 10%;
+  margin-bottom: 1%;
+}
+.imgcntr{
+  width: 43%;
+  float: left;
+}
+.txtcntr{
+  width: 55%;
+  float: right;
+  text-align: left;
+}
+.searchBox{
+  width: 200px;
+  margin-left: 74%;
+  margin-bottom: 2%;
+  margin-top: 2%;
+}
+.container {
+  padding-right: 5%;
+  padding-left: 5%;
+  margin-right: auto;
+  margin-left: auto;
+}
+.picture {
+  float: left;
+  width: 25%;
+  margin-bottom: 1%;
+  margin-top: 1%;
+}
+
+.imageContainer{
+  float: left;
+  margin-top: 1%;
+}
+
+/*https://639d84c204318b6b02824038--moviesysteminternsync.netlify.app*/
